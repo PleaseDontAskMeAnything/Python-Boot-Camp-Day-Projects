@@ -59,8 +59,7 @@ stages = [r'''
 
 word_list = ["aardvark", "baboon", "camel", "donkey", "elephant", "flamingo", "giraffe", "hippopotamus", "iguana", "jaguar"]
 
-# chosen_word_text = random.choice(word_list)
-chosen_word_text = "aardvark"  # For testing purposes
+chosen_word_text = random.choice(word_list)
 print(f"Chosen word: {chosen_word_text}")  # For debugging purposes
 chosen_word = list(chosen_word_text.lower())
 placeholder = ''
